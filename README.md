@@ -39,7 +39,7 @@ A comprehensive web application for managing employee information, built with Sp
    Create a MySQL database named `employeedb` or update the database configuration in `application.properties`:
 
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/employeedb?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+   spring.datasource.url=jdbc:mysql://localhost:3306/employeedb
    spring.datasource.username=root
    spring.datasource.password=root
    ```
